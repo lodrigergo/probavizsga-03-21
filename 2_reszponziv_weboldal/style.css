@@ -1,6 +1,8 @@
 .start {
     background-image: url('img/real-estate-agent.png');
     min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (min-width: 768px) {
@@ -55,5 +57,10 @@
 
 .card-header span{
     color: rgb(217, 243, 240);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(71, 71, 150) !important;
+    font-weight: bold;
 }
 
