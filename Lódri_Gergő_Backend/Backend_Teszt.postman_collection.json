@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "c5b501e6-0964-4396-8276-df4adc346730",
+		"name": "Backend_Teszt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32806676"
+	},
+	"item": [
+		{
+			"name": "createIngatlan",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/L%C3%B3dri_Gerg%C5%91_Backend/createIngatlan.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"L%C3%B3dri_Gerg%C5%91_Backend",
+						"createIngatlan.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteIngatlan",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/L%C3%B3dri_Gerg%C5%91_Backend/deleteIngatlan.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"L%C3%B3dri_Gerg%C5%91_Backend",
+						"deleteIngatlan.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllIngatlan",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/L%C3%B3dri_Gerg%C5%91_Backend/ingatlanok.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"L%C3%B3dri_Gerg%C5%91_Backend",
+						"ingatlanok.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
