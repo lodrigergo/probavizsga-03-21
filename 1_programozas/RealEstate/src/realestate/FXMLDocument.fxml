@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="201.0" prefWidth="460.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="realestate.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="15.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.   Földszinti ingatlanok átlagos alapterülete " />
+      <Text layoutX="13.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.  Mesevár óvodához légvonalban  legközelebbi tehermentes ingatlan adatai:" />
+      <Label layoutX="79.0" layoutY="76.0" text="Eladó neve : " />
+      <Label layoutX="212.0" layoutY="76.0" text="Label" />
+    </children>
+</AnchorPane>
